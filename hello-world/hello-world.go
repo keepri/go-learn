@@ -3,7 +3,7 @@ package helloworld
 import (
 	"fmt"
 
-	str "github.com/keepri/learn-go/mystrings"
+	str "internal/mystrings"
 )
 
 func Run() {
