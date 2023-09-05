@@ -1,11 +1,11 @@
-package main
+package condsfuncs
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+func Run() {
 	len_one := 10
 	len_two := 20
 	fmt.Printf("len 1 and 2 are %d %d\n", len_one, len_two)

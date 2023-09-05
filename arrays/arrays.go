@@ -1,8 +1,8 @@
-package main
+package arrays
 
 import "fmt"
 
-func main() {
+func Run() {
 	// array
 	var arr [10]int
 	for i := 1; i <= 10; i++ {

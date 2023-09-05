@@ -1,4 +1,4 @@
-package main
+package datetest
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	tinytime "github.com/wagslane/go-tinytime"
 )
 
-func main() {
+func Run() {
 	tt := tinytime.New(1585750374)
 
 	tt = tt.Add(time.Hour * 48)

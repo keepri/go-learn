@@ -1,8 +1,8 @@
-package main
+package variables
 
 import "fmt"
 
-func main() {
+func Run() {
 	s := ""
 	i := 10
 	f := 0.1

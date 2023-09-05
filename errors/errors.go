@@ -1,4 +1,4 @@
-package main
+package errors
 
 import (
 	"errors"
@@ -13,7 +13,7 @@ func (u user) Error() string {
 	return fmt.Sprint("User error: ", u.name)
 }
 
-func main() {
+func Run() {
 	if user, err := get_user(
 		// should error
 		true,

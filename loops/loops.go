@@ -1,8 +1,8 @@
-package main
+package loops
 
 import "fmt"
 
-func main() {
+func Run() {
 	sum := 0
 	i := 0
 	for ; i < 100; i++ {

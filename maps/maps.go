@@ -1,4 +1,4 @@
-package main
+package maps
 
 import "fmt"
 
@@ -7,7 +7,7 @@ type key struct {
 	last_name  string
 }
 
-func main() {
+func Run() {
 	// var m map[string]int
 	// m := make(map[string]int)
 	// or

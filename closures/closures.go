@@ -1,8 +1,8 @@
-package main
+package closures
 
 import "fmt"
 
-func main() {
+func Run() {
 	concat := concatter()
 	concat("Hello,")
 	concat("world!")

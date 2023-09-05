@@ -1,8 +1,8 @@
-package main
+package strings
 
 import "fmt"
 
-func main() {
+func Run() {
 	const name = "Me"
 	const rate = 30.5
 

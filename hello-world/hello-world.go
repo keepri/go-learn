@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import (
 	"fmt"
@@ -6,6 +6,6 @@ import (
 	str "github.com/keepri/learn-go/mystrings"
 )
 
-func main() {
+func Run() {
 	fmt.Println(str.Reverse("Hello, world!"))
 }

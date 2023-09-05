@@ -1,8 +1,8 @@
-package main
+package structs
 
 import "fmt"
 
-func main() {
+func Run() {
 	empty_struct := myStruct{}
 	s := myStruct{foo: 7, bar: "baz"}
 	o := myOtherStruct{baz: s}
