@@ -70,11 +70,11 @@ func (a *animal) say_hi() {
 }
 
 // interfaces
-type can_hello interface {
+type interacter interface {
 	say_hi()
 }
 
-func shout(entity can_hello) {
+func shout(entity interacter) {
 	if _, ok := entity.(*person); ok == true {
 		fmt.Println("We have a person!")
 	} else {
